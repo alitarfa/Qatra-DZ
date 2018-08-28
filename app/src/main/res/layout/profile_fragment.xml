@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/info_btn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|left">
+
+            <ImageView
+                android:id="@+id/image_setting"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="8dp"
+                app:srcCompat="@drawable/profile_account" />
+
+            <TextView
+                android:id="@+id/info_profile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/image_setting"
+                android:gravity="center|left"
+                android:text="Information Personnel"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/setting_card"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|left">
+
+            <ImageView
+                android:id="@+id/image_setting2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="8dp"
+                app:srcCompat="@drawable/ic_settings_black_24dp" />
+
+            <TextView
+                android:id="@+id/info_profile2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/image_setting2"
+                android:gravity="center|left"
+                android:text="Setting"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/aboutUs"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|left">
+
+            <ImageView
+                android:id="@+id/image_setting3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="8dp"
+                app:srcCompat="@drawable/ic_error_outline_black_24dp" />
+
+            <TextView
+                android:id="@+id/info_profile3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/image_setting3"
+                android:gravity="center|left"
+                android:text="About us"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/sing_out_btn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|left">
+
+            <ImageView
+                android:id="@+id/image_setting1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="8dp"
+                app:srcCompat="@drawable/ic_power_settings_new_black_24dp" />
+
+            <TextView
+                android:id="@+id/info_profile1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/image_setting1"
+                android:gravity="center|left"
+                android:text="SingOut"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

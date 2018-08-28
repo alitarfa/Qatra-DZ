@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:background="#f43b3b"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Chercher une Facture"
+        android:id="@+id/textView24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="S1" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="S2" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="S3" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="S4" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView24"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle_facture"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/year_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Selectioner l'année" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/year_picker"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="18dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_search_black_24dp" />
+
+
+</RelativeLayout>
