@@ -33,7 +33,7 @@ public class NewMessageNotification {
         if (number==2){
             // TODO: 6/18/18 this case full qantity
             resultIntent.putExtra("type",exampleString);
-            resultIntent.putExtra("body","your message here lamin");
+            resultIntent.putExtra("body","Warning!! can you please check your water flow sensor");//i changed the msg format.
         }
 
 
